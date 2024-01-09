@@ -63,7 +63,7 @@
     "stakedOsmo": "스테이킹된 OSMO",
     "APR": "4월",
     "currentApr": "현재 4월",
-    "pool": "수영장 #{poolId}",
+    "pool": "풀 #{poolId}",
     "position": "위치 # {positionId}",
     "convertAndStake": "변환 및 스테이킹"
   },
@@ -73,11 +73,11 @@
     "outOfRange": "범위를 벗어남",
     "fullRange": "전체 범위",
     "unbonding": "언본딩",
-    "superfluidStaked": "초유체 고정",
-    "superfluidUnstakingStatus": "초유동체 언스테이킹",
-    "currentAssets": "유동 자산",
+    "superfluidStaked": "수퍼플루이드 스테이킹",
+    "superfluidUnstakingStatus": "수퍼플루이드 언스테이킹",
+    "currentAssets": "현재 자산",
     "principalAssets": "주요 자산",
-    "totalRewardsEarned": "총 보상 획득",
+    "totalRewardsEarned": "총 획득 보상",
     "unclaimedRewards": "청구되지 않은 보상",
     "roi": "ROI",
     "selectedRange": "선택한 범위",
@@ -102,13 +102,13 @@
     "superfluidUnstake": "스테이킹 해제 후 사용 가능",
     "superfluidUnstaking": "언스테이킹, 사용 가능",
     "superfluidCommission": "수수료",
-    "unstake": "언스테이크 유동성",
+    "unstake": "유동성 언스테이킹",
     "unbondingFromNow": "언본딩, 사용 가능",
     "checkBackForRewards": "리워드를 다시 확인하세요.",
-    "totalBalance": "전체 균형",
+    "totalBalance": "전체 잔고",
     "numPositions": "한정되지 않은",
     "onePosition": "1 위치",
-    "goToPool": "수영장 번호로 이동"
+    "goToPool": "풀 번호로 이동"
   },
   "app": {
     "banner": {
@@ -436,9 +436,9 @@
     "outboundTransferHistoryMessage": "양",
     "poolExitedHistoryTitle": "Osmosis 풀 종료됨",
     "poolExitedHistoryMessage": "풀 ID",
-    "poolJoinedHistoryTitle": "삼투 풀 합류",
+    "poolJoinedHistoryTitle": "오스모시스 풀 합류",
     "poolJoinedHistoryMessage": "토큰",
-    "swapHistoryTitle": "삼투 스왑 확인",
+    "swapHistoryTitle": "오스모시스 스왑 확인",
     "swapHistoryMessage": "로 바꿨다",
     "emptyHistoryTitle": "제목 없음",
     "emptyHistoryMessage": "메시지 없음",
@@ -768,7 +768,7 @@
     "superchargedLiquidity": "강력한 유동성",
     "newSuperchargedPool": "이 새로운 풀은 더 높은 수익 잠재력과 가장 높은 추정 APR을 제공합니다.",
     "upgrade": "업그레이드",
-    "pool": "수영장",
+    "pool": "풀",
     "new": "새로운",
     "current": "현재의",
     "success": "업그레이드 성공!",
@@ -790,22 +790,22 @@
       "description": "가장 큰 인터체인 DEX인 선도적인 탈중앙화 Cosmos 거래소에서 스왑, 수익 및 구축"
     },
     "apps": {
-      "title": "삼투 앱 스토어",
+      "title": "오스모시스 앱 스토어",
       "description": "거래는 첫 번째 단계일 뿐입니다. 자산을 업무에 활용하고 레버리지, 금고 등을 통해 훨씬 더 많은 것을 성취하십시오."
     },
     "assets": {
-      "title": "삼투 자산",
+      "title": "오스모시스 자산",
       "description": "Osmosis에서 사용 가능한 모든 자산 탐색 - 선도적인 탈중앙화 Cosmos 거래소"
     },
     "disclaimer": {
-      "title": "삼투 면책 조항",
+      "title": "오스모시스 면책 조항",
       "description": "Osmosis에 대한 고지 사항 및 개인 정보 보호 정책 읽기 - 선도적인 탈중앙화 Cosmos 거래소"
     },
     "pool": {
-      "title": "수영장 #"
+      "title": "풀 #"
     },
     "pools": {
-      "title": "삼투 풀",
+      "title": "오스모시스 풀",
       "description": "Osmosis에서 유동성 풀을 발견하십시오 - 선도적인 탈중앙화 Cosmos 거래소"
     }
   },
@@ -841,7 +841,7 @@
     "noData": "ND"
   },
   "osmosisUpdates": {
-    "osmosisUpdates": "삼투 업데이트!",
+    "osmosisUpdates": "오스모시스 업데이트!",
     "seeWhatsNew": "새로운 소식 보기"
   },
   "unlistedAssetsEnabled": "비상장 자산이 활성화되었습니다.",
@@ -871,7 +871,7 @@
     "allMethods": "모든 방법",
     "platforms": "플랫폼",
     "allPlatforms": "모든 플랫폼",
-    "lockingDuration": "잠금 기간",
+    "lockingDuration": "락업 기간",
     "specialTokens": "특별 토큰",
     "filters": "필터",
     "resetFilters": "필터 재설정",
