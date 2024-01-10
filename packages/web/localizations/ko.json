@@ -63,8 +63,8 @@
     "stakedOsmo": "스테이킹된 OSMO",
     "APR": "4월",
     "currentApr": "현재 4월",
-    "pool": "수영장 #{poolId}",
-    "position": "위치 # {positionId}",
+    "pool": "풀 #{poolId}",
+    "position": "포지션 # {positionId}",
     "convertAndStake": "변환 및 스테이킹"
   },
   "clPositions": {
@@ -73,12 +73,12 @@
     "outOfRange": "범위를 벗어남",
     "fullRange": "전체 범위",
     "unbonding": "언본딩",
-    "superfluidStaked": "초유체 고정",
-    "superfluidUnstakingStatus": "초유동체 언스테이킹",
+    "superfluidStaked": "슈퍼플루이드 스테이킹",
+    "superfluidUnstakingStatus": "슈퍼플루이드 언스테이킹",
     "currentAssets": "유동 자산",
     "principalAssets": "주요 자산",
-    "totalRewardsEarned": "총 보상 획득",
-    "unclaimedRewards": "청구되지 않은 보상",
+    "totalRewardsEarned": "총 획득 보상",
+    "unclaimedRewards": "미청구 보상",
     "roi": "ROI",
     "selectedRange": "선택한 범위",
     "myLiquidity": "내 유동성",
@@ -90,15 +90,15 @@
     "noRewards": "수집할 항목이 없습니다. 나중에 다시 확인하세요.",
     "removeLiquidity": "유동성 제거",
     "increaseLiquidity": "유동성 증가",
-    "yourPositions": "당신의 위치",
-    "yourPosition": "너의 위치",
+    "yourPositions": "당신의 포지션",
+    "yourPosition": "너의 포지션",
     "yourPositionsDesc": "자산을 작동시키고 모든 스왑에서 스프레드를 얻으십시오.",
     "learnMoreAboutPools": "풀에 대해 자세히 알아보기",
     "supercharged": "과급",
     "createAPosition": "위치 만들기",
     "addMoreLiquidity": "더 많은 유동성 추가",
     "pendingRewards": "보류 중인 보상",
-    "superfluidValidator": "유효성 검사기",
+    "superfluidValidator": "밸리데이터",
     "superfluidUnstake": "스테이킹 해제 후 사용 가능",
     "superfluidUnstaking": "언스테이킹, 사용 가능",
     "superfluidCommission": "수수료",
@@ -108,7 +108,7 @@
     "totalBalance": "전체 균형",
     "numPositions": "한정되지 않은",
     "onePosition": "1 위치",
-    "goToPool": "수영장 번호로 이동"
+    "goToPool": "풀 번호로 이동"
   },
   "app": {
     "banner": {
@@ -211,7 +211,7 @@
       },
       "depositButton": "입금",
       "hideZero": "소액 자산 숨기기",
-      "hideBalances": "마스크 잔액",
+      "hideBalances": "자산 숨기기",
       "preTransfer": {
         "currentBal": "현재 수량",
         "deposit": "입금",
@@ -257,7 +257,7 @@
       "expectedOutput": "예상 출력",
       "expectedOutputInfo": "사용하는 공급자에 따라 수수료, 슬리피지, 가격 영향에 따라 생산량이 낮아질 수 있습니다.",
       "priceImpact": "가격 영향",
-      "sending": "배상...",
+      "sending": "전송중...",
       "transferAnyway": "어쨌든 전송"
     },
     "transferAssetSelect": {
@@ -268,10 +268,10 @@
     },
     "unbondedAssets": "예치해제된 자산",
     "nomic": {
-      "addresses": "구애.",
+      "addresses": "주소",
       "bitcoin": "비트코인(BTC)",
       "bitcoinMinerFee": "비트코인 채굴자 수수료",
-      "bridgeAtCapacity": "교량은 현재 수용능력이 찼습니다. 나중에 다시 시도 해주십시오.",
+      "bridgeAtCapacity": "브릿지 허용치를 초과했습니다. 나중에 다시 시도 해주십시오.",
       "bridgeFee": "노믹 브릿지 수수료",
       "confirmations": "6개의 확인",
       "enterBitcoinAddress": "비트코인 주소를 입력하세요",
@@ -297,7 +297,7 @@
   "buyTokens": "토큰 구매",
   "components": {
     "fiatOnrampSelection": {
-      "chooseOnramp": "피아트 온램프 선택",
+      "chooseOnramp": "피앗 온램프 선택",
       "kadoSubtitle": "OSMO, USDC를 지원합니다",
       "transakSubtitle": "OSMO를 지원합니다"
     },
@@ -372,7 +372,7 @@
     "fallbackSupport": "지원하다",
     "chartUnavailable": "차트를 사용할 수 없음",
     "sequenceNumber": "동시 트랜잭션이 너무 많습니다. 이전 tx가 체인에 도달한 후 다시 보내보세요. (시퀀스: {sequence} )",
-    "swapSlippage": "미끄러짐으로 인해 {coinDenom} 에 대한 스왑이 실패했습니다. 미끄러짐 내성을 높여보세요.",
+    "swapSlippage": "슬리피지로 인해 {coinDenom} 에 대한 스왑이 실패했습니다. 미끄러짐 내성을 높여보세요.",
     "invalidAmounts": "잘못된 금액"
   },
   "frontierMigration": {
@@ -405,19 +405,19 @@
     "pools": "풀",
     "stake": "스테이킹",
     "store": "앱",
-    "swap": "교환",
+    "swap": "스왑",
     "vote": "투표",
     "featureRequests": "기능 요청",
     "trade": "프로 트레이딩",
-    "margin": "여유",
-    "perpetuals": "무기한",
-    "marsSubtext": "화성에 의해 구동됨",
+    "margin": "마진",
+    "perpetuals": "무기한 선물",
+    "marsSubtext": "마르스 제공",
     "levanaSubtext": "레바나 제공",
-    "more": "더",
+    "more": "더보기",
     "new": "새로운"
   },
   "notifi": {
-    "saveChanges": "변경 사항을 저장하다",
+    "saveChanges": "변경 사항 저장",
     "unsupportedHistoryTitle": "지원되지 않는 알림",
     "unsupportedHistoryMessage": "아차! 문제가 발생했습니다. 알려주세요",
     "getStartedHistoryTitle1": "시작하려면 토큰 구매",
@@ -436,9 +436,9 @@
     "outboundTransferHistoryMessage": "양",
     "poolExitedHistoryTitle": "Osmosis 풀 종료됨",
     "poolExitedHistoryMessage": "풀 ID",
-    "poolJoinedHistoryTitle": "삼투 풀 합류",
+    "poolJoinedHistoryTitle": "오스모시스 풀 합류",
     "poolJoinedHistoryMessage": "토큰",
-    "swapHistoryTitle": "삼투 스왑 확인",
+    "swapHistoryTitle": "오스모시스 스왑 확인",
     "swapHistoryMessage": "로 바꿨다",
     "emptyHistoryTitle": "제목 없음",
     "emptyHistoryMessage": "메시지 없음",
@@ -554,7 +554,7 @@
     "aprBreakdown": {
       "swapFees": "스왑 수수료",
       "boost": "후원",
-      "superfluid": "초유체",
+      "superfluid": "슈퍼플루이드",
       "externalBoost": "외부 부스트",
       "total": "총 연이율",
       "explainer": {
@@ -598,8 +598,8 @@
     "unbondingInProgress": "언스테이킹 진행 중",
     "amount": "양",
     "availableIn": "가능",
-    "day": "낮",
-    "days": "날",
+    "day": "일",
+    "days": "일",
     "month": "월",
     "dashboard": "계기반",
     "dashboardStakedOsmo": "스테이킹된 OSMO",
@@ -768,7 +768,7 @@
     "superchargedLiquidity": "강력한 유동성",
     "newSuperchargedPool": "이 새로운 풀은 더 높은 수익 잠재력과 가장 높은 추정 APR을 제공합니다.",
     "upgrade": "업그레이드",
-    "pool": "수영장",
+    "pool": "풀",
     "new": "새로운",
     "current": "현재의",
     "success": "업그레이드 성공!",
@@ -790,22 +790,22 @@
       "description": "가장 큰 인터체인 DEX인 선도적인 탈중앙화 Cosmos 거래소에서 스왑, 수익 및 구축"
     },
     "apps": {
-      "title": "삼투 앱 스토어",
+      "title": "오스모시스 앱 스토어",
       "description": "거래는 첫 번째 단계일 뿐입니다. 자산을 업무에 활용하고 레버리지, 금고 등을 통해 훨씬 더 많은 것을 성취하십시오."
     },
     "assets": {
-      "title": "삼투 자산",
+      "title": "오스모시스 자산",
       "description": "Osmosis에서 사용 가능한 모든 자산 탐색 - 선도적인 탈중앙화 Cosmos 거래소"
     },
     "disclaimer": {
-      "title": "삼투 면책 조항",
+      "title": "오스모시스 면책 조항",
       "description": "Osmosis에 대한 고지 사항 및 개인 정보 보호 정책 읽기 - 선도적인 탈중앙화 Cosmos 거래소"
     },
     "pool": {
-      "title": "수영장 #"
+      "title": "풀 #"
     },
     "pools": {
-      "title": "삼투 풀",
+      "title": "오스모시스 풀",
       "description": "Osmosis에서 유동성 풀을 발견하십시오 - 선도적인 탈중앙화 Cosmos 거래소"
     }
   },
@@ -817,7 +817,7 @@
     "stakeYourDenomToEarnNoAPR": "{denom} 스테이킹하여 보상을 받으세요",
     "provideLiquidity": "유동성을 제공하고 수수료와 스왑으로 수익을 창출하세요",
     "yourBalance": "귀하의 잔액",
-    "pastDaysReturns": "지난 날의 수익",
+    "pastDaysReturns": "과거 수익",
     "allTimeReturns": "올타임 리턴",
     "averagePrice": "평균 가격",
     "aboutDenom": "{name} 정보",
@@ -834,14 +834,14 @@
     "watchlist": "관심 목록",
     "marketCapRank": "시가총액 순위",
     "marketCap": "시가총액",
-    "circulatingSupply": "순환 공급",
+    "circulatingSupply": "유통 공급량",
     "tvl": "TVL",
     "backButton": "모든 토큰",
     "ariaBackButton": "모든 토큰 뒤로 버튼",
     "noData": "ND"
   },
   "osmosisUpdates": {
-    "osmosisUpdates": "삼투 업데이트!",
+    "osmosisUpdates": "오스모시스 업데이트!",
     "seeWhatsNew": "새로운 소식 보기"
   },
   "unlistedAssetsEnabled": "비상장 자산이 활성화되었습니다.",
@@ -864,14 +864,14 @@
     "apy": "APY",
     "daily": "일일",
     "reward": "보상",
-    "lock": "잠그다",
-    "days": "날",
+    "lock": "락업",
+    "days": "일",
     "risk": "위험",
     "strategyMethod": "전략 방법",
     "allMethods": "모든 방법",
     "platforms": "플랫폼",
     "allPlatforms": "모든 플랫폼",
-    "lockingDuration": "잠금 기간",
+    "lockingDuration": "락업 기간",
     "specialTokens": "특별 토큰",
     "filters": "필터",
     "resetFilters": "필터 재설정",
@@ -886,10 +886,10 @@
       "all": "모든 토큰"
     },
     "rewardTypes": {
-      "all": "모두",
-      "single": "하나의",
+      "all": "전체",
+      "single": "단일",
       "multi": "다중"
     }
   },
-  "disclaimer": "부인 성명"
+  "disclaimer": "면책조항"
 }
