@@ -292,6 +292,11 @@
       "undergoAudit": "감사 진행중",
       "warning": "경고:",
       "loading": "로딩 중..."
+    },
+    "activateUnverifiedAssetsModal": {
+      "activate": "확인되지 않은 자산 활성화",
+      "description": "확인되지 않은 토큰입니다. 활성화하시겠습니까? 거래하기 전에 철저히 조사하십시오.",
+      "reminder": "언제든지 설정 모달에서 이 설정을 비활성화할 수 있습니다."
     }
   },
   "buyTokens": "토큰 구매",
@@ -503,7 +508,8 @@
     "unbonding": "예치 해제중",
     "undelegating": "위임 해제중",
     "yourStats": "내 잔액",
-    "onlyInRangePositions": "범위 내 위치에만 해당"
+    "onlyInRangePositions": "범위 내 위치에만 해당",
+    "custom": "관습"
   },
   "pools": {
     "allPools": {
@@ -591,6 +597,7 @@
   },
   "stake": {
     "available": "사용 가능",
+    "staked": "스테이킹된",
     "MAX": "MAX",
     "validatorHeader": "유효성 검사기 분대",
     "stake": "OSMO 스테이킹",
@@ -848,8 +855,6 @@
     "marketCap": "시가총액",
     "circulatingSupply": "순환 공급",
     "tvl": "TVL",
-    "backButton": "모든 토큰",
-    "ariaBackButton": "모든 토큰 뒤로 버튼",
     "noData": "ND",
     "buyToken": "{coinDenom} 구매",
     "staking": "스테이킹",

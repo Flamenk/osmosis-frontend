@@ -292,6 +292,11 @@
       "undergoAudit": "در حین انجام حسابرسی (تکمیل تخمینی ژانویه 2024).",
       "warning": "هشدار:",
       "loading": "در حال بارگذاری..."
+    },
+    "activateUnverifiedAssetsModal": {
+      "activate": "دارایی های تایید نشده را فعال کنید",
+      "description": "یک توکن تایید نشده است. آیا می خواهید آن را فعال کنید؟ حتما قبل از معامله به طور کامل تحقیق کنید.",
+      "reminder": "همیشه می توانید این تنظیم را در حالت تنظیمات غیرفعال کنید."
     }
   },
   "buyTokens": "خرید توکن",
@@ -503,7 +508,8 @@
     "unbonding": "باز شدن",
     "undelegating": "در حال خروج",
     "yourStats": "موجودی استخر شما",
-    "onlyInRangePositions": "فقط برای موقعیت های در محدوده"
+    "onlyInRangePositions": "فقط برای موقعیت های در محدوده",
+    "custom": "سفارشی"
   },
   "pools": {
     "allPools": {
@@ -591,6 +597,7 @@
   },
   "stake": {
     "available": "دسترس",
+    "staked": "شرط بندی",
     "MAX": "حداکثر",
     "validatorHeader": "گروه اعتبارسنجی",
     "stake": "وارد کردن OSMO",
@@ -848,8 +855,6 @@
     "marketCap": "ارزش بازار",
     "circulatingSupply": "عرضه در گردش",
     "tvl": "TVL",
-    "backButton": "همه توکن ها",
-    "ariaBackButton": "دکمه برگشت همه نشانه ها",
     "noData": "ND",
     "buyToken": "خرید {coinDenom}",
     "staking": "شرط بندی",

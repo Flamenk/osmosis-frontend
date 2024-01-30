@@ -292,6 +292,11 @@
       "undergoAudit": "w trakcie audytu (szacunkowe zakończenie: styczeń 2024 r.).",
       "warning": "OSTRZEŻENIE:",
       "loading": "Wczytywanie..."
+    },
+    "activateUnverifiedAssetsModal": {
+      "activate": "Aktywuj niezweryfikowane zasoby",
+      "description": "jest tokenem niezweryfikowanym. Czy chcesz go aktywować? Przed przystąpieniem do handlu pamiętaj o dokładnym zbadaniu sytuacji.",
+      "reminder": "Zawsze możesz dezaktywować to ustawienie w trybie ustawień."
     }
   },
   "buyTokens": "Kup tokeny",
@@ -503,7 +508,8 @@
     "unbonding": "rozwiązywane",
     "undelegating": "oddelegowywane",
     "yourStats": "Twoje saldo puli",
-    "onlyInRangePositions": "Tylko dla pozycji w zasięgu"
+    "onlyInRangePositions": "Tylko dla pozycji w zasięgu",
+    "custom": "Zwyczaj"
   },
   "pools": {
     "allPools": {
@@ -591,6 +597,7 @@
   },
   "stake": {
     "available": "Dostępny",
+    "staked": "Postawione",
     "MAX": "MAKS",
     "validatorHeader": "Ekipa walidatorów",
     "stake": "Stawka OSMO",
@@ -848,8 +855,6 @@
     "marketCap": "Kapitalizacja rynkowa",
     "circulatingSupply": "Krążące zaopatrzenie",
     "tvl": "TVL",
-    "backButton": "Wszystkie tokeny",
-    "ariaBackButton": "Przycisk powrotu wszystkich tokenów",
     "noData": "ND",
     "buyToken": "Kup {coinDenom}",
     "staking": "Stawianie",
